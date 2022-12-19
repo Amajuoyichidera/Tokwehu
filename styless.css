@@ -160,6 +160,19 @@ h1 {
   font-size: 15px;
 }
 
+.screen {
+  -webkit-animation: mover 1.5s infinite  alternate;
+  animation: mover 1.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
 
 
 
