@@ -172,7 +172,11 @@ h1 {
   0% { transform: translateY(0); }
   100% { transform: translateY(-20px); }
 }
-
+.trust {
+  display: flex;
+  gap: 10px;
+  padding-top: 30px;
+}
 
 
 
