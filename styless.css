@@ -165,8 +165,8 @@ h1 {
 }
 
 .screen {
-  -webkit-animation: mover 1.5s infinite  alternate;
-  animation: mover 1.5s infinite  alternate;
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
   box-shadow:rgba(0, 5, 39, 0.14) 0px 40px 40px 0px;  
 }
 @-webkit-keyframes mover {
@@ -307,6 +307,172 @@ p {
   opacity: 1;
   visibility: visible;
 }
+.services {
+  background-color: white;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+.what {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 50px;
+}
+.trans {
+  display: flex;
+  flex-direction: column;
+}
+
+.tra {
+  -webkit-animation: moving 2s infinite  alternate;
+  animation: moving 2s infinite  alternate;
+  box-shadow:rgba(0, 5, 39, 0.14) 0px 40px 40px 0px;  
+  margin-top: -10px;
+}
+@-webkit-keyframes moving {
+  0% { transform: translateX(-30px); }
+  100% { transform: translateX(20px); }
+}
+@keyframes moving {
+  0% { transform: translateX(-30px); }
+  100% { transform: translateX(20px); }
+}
+
+.buy {
+  border: 1px solid #DFDFDF;
+  display: flex;
+  flex-direction: column;
+}
+.buy p {
+  border-top: 1px solid #DFDFDF;
+  height: 42px;
+  width: 635px;
+  padding: 8px 16px 8px 16px;
+}
+.ibra {
+  max-width: 100%;
+  width: 375px;
+  height: 300px;
+}
+.services h2 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.we {
+  padding-bottom: 30px;
+}
+.best {
+  color: #FF5383;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.ease {
+  font-size: 33px;
+  padding-bottom: 40px;
+}
+.other {
+  color: #77797C;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.part {
+  background: url(/images/cta-1.png);
+  background-color: #5F3DE8;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  gap: 450px;
+}
+.part h3 {
+  font-size: 43px;
+  padding-bottom: 20px;
+}
+.part button {
+  background-color: white;
+  border: none;
+  padding: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.part button:hover {
+  background-color: orangered;
+  transition: 0.8s ease-in-out;
+  color: white;
+}
+
+
+/* slideshow */
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  /* margin: auto; */
+  padding-top: 100px;
+  background-color: white;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.dan {
+  text-align: center;
+}
+.dan img {
+  margin-bottom: 10px;
+}
+.dan h6 {
+  font-size: 15px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+.dan h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+  font-weight: 550;
+}
+
+.happy {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.happy h2 {
+  font-size: 45px;
+}
+
+
+
+
 
 
 
