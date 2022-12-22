@@ -471,8 +471,118 @@ p {
 }
 
 
+.faq-container{
+  max-width: 550px;
+}
 
+.faq{
+  background-color: #F1F2F7;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+  box-shadow: rgba(6, 44, 120, 0.2) 0px 10px 20px 0px;
+}
 
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 
+  6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: '\f075';
+  font-family: 'Font awesome 5 free';
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before{
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title{
+  margin: 0 35px 0 0;
+  font-weight: 500;
+}
+
+.faq-text{
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text{
+  display: block;
+}
+
+.faq-toggle{
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.faq-toggle:focus{
+  outline: none;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  display: block;
+  color: white;
+}
+
+.faq.active .faq-toggle .fa-chevron-down{
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}    
+
+  .freq {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .stay h6 {
+    color: #FF4E80;
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 15px;
+  }
+  .stay h3 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 45px;
+  }
 
 
 
