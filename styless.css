@@ -8,6 +8,8 @@
 body {
     background-color: #F2F3F8;
     color: #0E1F3E;
+    scroll-behavior: smooth;
+    transition: .6s all ease;
 }
 
 /* custom scroll bar */
@@ -584,7 +586,87 @@ p {
     line-height: 45px;
   }
 
+  .get1 {
+    background-image: url(/images/subscription.png);
+    background-size: cover;
+    background-color: #3938B9;
+    color: white;
+    text-align: center;
+    padding: 80px;
+  }
+  .get1 h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .get1 p {
+    color: #9F9EDD;
+    font-weight: 550;
+    padding-bottom: 30px;
+  }
+  .now {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .now button {
+    background-color: #0A1426;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .now button:hover {
+    background-color: orangered;
+    transition: 1s;
+  }
+  .mark {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+  .trut {
+    display: flex;
+    gap: 10px;
+  }
+  .trut h6 {
+    font-size: 15px;
+    font-weight: 500;
+  }
 
+  footer {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding: 50px;
+    padding-top: 100px;
+  }
+footer h2 {
+  font-size: 40px;
+}
+footer span {
+  color: #0000FF;
+}
+footer h4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer p {
+  padding-top: 10px;
+} 
+.copy {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.footer a {
+  text-decoration: none;
+  color: #0E1F3E;
+}
 
 
 
@@ -612,7 +694,202 @@ p {
     .menu-list li a {
       color: white;
     }
+    .sec1 {
+      flex-direction: column;
+      padding-top: 100px;
+      padding-left: 40px;
+    }
+    .well {
+      padding-top: 10px;
+     }
+     p {
+      font-size: 1.3vh;
+     }
+     h1 {
+      font-size: 3.5vh;
+      font-weight: 900;
+      line-height: 30px;
+      padding-bottom: 20px;
+    }
+    .navbar .logo a{
+      color: black;
+      font-size: 2.8vh;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .to {
+      font-weight: 500;
+      font-size: 1.3vh;
+    }
+    .screen {
+      height: 35vh;
+      margin-top: 30px;
+      margin-left: 35px;
+    }
+    .about {
+      flex-direction: column;
+      background-color: white;
+      justify-content: center;
+      gap: 50px;
+      padding: 20px;
+      padding-top: 50px;
+      padding-bottom: 100px;
+    }
+    .plat h2 {
+      font-size: 2.5vh;
+      padding-bottom: 10px;
+    }
+    .photo img {
+     width: 35vh;
+     margin-left: 30px;
+     object-fit: cover;
+    }
+    .cust {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .sup {
+      padding: 20px;
+      height: 40vh;
+      width: 35vh;
+      margin-left: 55px;
+      margin-bottom: 10px;
+    }
+    .sup img {
+      height: 3vh;
+      object-fit: cover;
+    }
+    .sup h5 {
+      font-size: 1.5vh;
+      padding-bottom: 10px;
+    }
+    .why h2 {
+      font-size: 2.5vh;
+    }
+    .services h2 {
+      text-align: center;
+      font-size: 2.5vh;
+      padding-top: 70px;
+      padding-bottom: 20px;
+    }
+    .what {
+      flex-direction: column;
+      justify-content: center;
+      gap: 100px;
+      padding-top: 50px;
+    }
+    .ibra {
+      max-width: 100%;
+      width: 35vh;
+      height: 30vh;
+      margin-left: 60px;
+      object-fit: cover;
+    }
+    .tra {
+      width: 40vh;
+      height: 35vh;
+      object-fit: cover;
+      margin-left: 50px;
+    }
+    .ease {
+      font-size: 2.5vh;
+      padding-bottom: 30px;
+      text-align: center;
+    }
+    .best {
+      font-size: 1.3vh;
+      text-align: center;
+    }
+    .buy {
+      margin-left: 25px;
+      margin-right: 35px;
+    }
+    .buy p {
+      border-top: 1px solid #DFDFDF;
+      height: 42px;
+      width: 42vh;
+    }
+    .other {
+      text-align: center;
+        font-size: 1.3vh;
+    }
+    .part {
+      flex-direction: column;
+      padding: 50px;
+      gap: 10px;
+    }
+    .part h3 {
+      font-size: 2.5vh;
+      padding-bottom: 20px;
+    }
+    .part button {
+      font-size: 1.5vh;
+      margin-top: 20px;
+    }
+    .log {
+      font-size: 1.7vh;
+    }
+    .btn {
+      margin-top: 10px;
+    }
+    .dan {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .dan img {
+      margin-bottom: 5px;
+    }
+    .dan h6 {
+      font-size: 1.3vh;
+    }
+    .dan h2 {
+      font-size: 2.5vh;
+    }
+    .happy {
+      gap: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .happy h2 {
+      font-size: 2.5vh;
+    }
+    .freq {
+      flex-direction: column;
+      gap: 30px;
+      padding-bottom: 70px;
+      padding-top: 70px;
+    }
+    .stay {
+     text-align: center;
+    }
+    .stay h6 {
+      color: #FF4E80;
+      font-size: 1.6vh;
+    }
+    .stay h3 {
+      font-size: 2.6vh;
+      line-height: 30px;
+    }
+    /* .faq-container{
+      max-width: 20vh;
+    } */
+    .faq-title {
+      font-size: 2.5vh;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1230px) {
   .content{
