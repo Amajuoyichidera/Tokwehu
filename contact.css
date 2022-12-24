@@ -309,24 +309,6 @@ form h3 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:768px) {
     .reg1 {
       display: block;                            
@@ -337,7 +319,100 @@ form h3 {
     .menu-list li a {
       color: white;
     }
+    footer {
+      flex-direction: column;
+      gap: 30px;
+      padding-top: 50px;
+    }
+  footer h2 {
+    font-size: 2.8vh;
+  }
+  footer h4 {
+    font-size: 1.7vh;
+    padding-bottom: 10px;
+  }
+  footer p {
+    padding-top: 5px;
+  } 
+  .copy {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  em {
+    font-size: 1.7vh;
+    font-weight: 700;
+  }
+  .navbar .logo a{
+    font-size: 2.8vh;
+    font-weight: 600;
+  }
+  .corn h2 {
+      font-size: 3.5vh;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.5vh;
+    }
+    .num {
+      flex-direction: column;
+    }
+    .name {
+      flex-direction: column;
+    }
+    .tele {
+      flex-direction: row;
+      gap: 12px;
+      padding: 20px;
+      margin-left: -60px;
+      margin-right: -60px;
+      margin-top: 20px;
+  } 
+  .tele h6 {
+    font-size: 15px;
+    padding-top: -25px;
+  }
+  .name1 {
+    padding: 17px;
+    padding-right: 70px;
+    border-radius: 5px;
+  }
+  .sub {
+    padding: 17px;
+    padding-right: 70px;
+    border-radius: 5px;
+  }
+  .here {
+    padding: 17px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    border-radius: 5px;
+  }
+  .place {
+    padding: 30px;
+    margin-left: -60px;
+     margin-right: -60px;
+  }
+  .name h6, .jet, .send {
+    font-size: 1.5vh;
+  }
+  form h3 {
+    font-size: 3vh;
+    padding-bottom: 10px;
+  }
+  .in {
+    text-align: center;
+  }
 }
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1230px) {
   .content{
