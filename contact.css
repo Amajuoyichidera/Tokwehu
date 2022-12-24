@@ -364,8 +364,8 @@ form h3 {
       flex-direction: row;
       gap: 12px;
       padding: 20px;
-      margin-left: -60px;
-      margin-right: -60px;
+      margin-left: -70px;
+      margin-right: -70px;
       margin-top: 20px;
   } 
   .tele h6 {
@@ -374,24 +374,24 @@ form h3 {
   }
   .name1 {
     padding: 17px;
-    padding-right: 70px;
+    padding-right: 85px;
     border-radius: 5px;
   }
   .sub {
     padding: 17px;
-    padding-right: 70px;
+    padding-right: 85px;
     border-radius: 5px;
   }
   .here {
     padding: 17px;
-    padding-right: 70px;
+    padding-right: 85px;
     padding-bottom: 100px;
     border-radius: 5px;
   }
   .place {
     padding: 30px;
-    margin-left: -60px;
-     margin-right: -60px;
+    margin-left: -70px;
+     margin-right: -70px;
   }
   .name h6, .jet, .send {
     font-size: 1.5vh;

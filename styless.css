@@ -740,8 +740,8 @@ footer p {
       padding-bottom: 10px;
     }
     .photo img {
-     width: 35vh;
-     margin-left: 30px;
+     width: 40vh;
+     margin-left: 20px;
      object-fit: cover;
     }
     .cust {
@@ -751,8 +751,8 @@ footer p {
     .sup {
       padding: 20px;
       height: 40vh;
-      width: 35vh;
-      margin-left: 55px;
+      width: 40vh;
+      margin-left: 37px;
       margin-bottom: 10px;
     }
     .sup img {
@@ -769,8 +769,9 @@ footer p {
     .services h2 {
       text-align: center;
       font-size: 2.5vh;
-      padding-top: 70px;
+      padding-top: 30px;
       padding-bottom: 20px;
+      margin-bottom: -40px;
     }
     .what {
       flex-direction: column;
@@ -789,7 +790,7 @@ footer p {
       width: 40vh;
       height: 35vh;
       object-fit: cover;
-      margin-left: 50px;
+      margin-left: 40px;
     }
     .ease {
       font-size: 2.5vh;
