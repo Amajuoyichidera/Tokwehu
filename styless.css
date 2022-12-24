@@ -698,6 +698,7 @@ footer p {
       flex-direction: column;
       padding-top: 100px;
       padding-left: 40px;
+      padding-bottom: 20px;
     }
     .well {
       padding-top: 10px;
@@ -722,9 +723,9 @@ footer p {
       font-size: 1.3vh;
     }
     .screen {
-      height: 35vh;
+      height: 40vh;
       margin-top: 30px;
-      margin-left: 35px;
+      margin-left: 15px;
     }
     .about {
       flex-direction: column;
@@ -732,8 +733,8 @@ footer p {
       justify-content: center;
       gap: 50px;
       padding: 20px;
-      padding-top: 50px;
-      padding-bottom: 100px;
+      padding-top: 10px;
+      padding-bottom: 50px;
     }
     .plat h2 {
       font-size: 2.5vh;
@@ -741,7 +742,7 @@ footer p {
     }
     .photo img {
      width: 40vh;
-     margin-left: 20px;
+     margin-left: 15px;
      object-fit: cover;
     }
     .cust {
@@ -752,7 +753,7 @@ footer p {
       padding: 20px;
       height: 40vh;
       width: 40vh;
-      margin-left: 37px;
+      margin-left: 33px;
       margin-bottom: 10px;
     }
     .sup img {
@@ -790,7 +791,8 @@ footer p {
       width: 40vh;
       height: 35vh;
       object-fit: cover;
-      margin-left: 40px;
+      margin-left: 36px;
+      margin-bottom: 10px;
     }
     .ease {
       font-size: 2.5vh;
@@ -916,6 +918,9 @@ footer p {
   em {
     font-size: 1.7vh;
     font-weight: 700;
+  }
+  .we {
+    margin-top: -20px;
   }
 
 }
