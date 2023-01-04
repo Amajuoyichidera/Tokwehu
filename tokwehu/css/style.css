@@ -1600,8 +1600,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       background: #000000; }
 
       @media screen and (max-width:768px) {
-        .so {
+        /* .so {
           margin-left: 200px;
           margin-top: 40px;
-        }
+        } */
       }
